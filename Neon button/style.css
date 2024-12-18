@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.box{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 75px 50% 0;
+    transform: translateX(-5%);
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 14px 75px;
+    border-radius: 40px;
+    background: #0ef;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,  0 0 200px cyan
+}
